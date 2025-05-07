@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Usuari - Ismael Iván</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" crossorigin="anonymous">
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111827;
+            font-family: Arial, sans-serif;
+        }
+
+        .manual-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background-color: #1f2937;
+        }
+
+        .manual-header h2 {
+            margin: 0;
+            font-size: 24px;
+            color: white;
+            font-family: Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        }
+
+        .manual-header img {
+            height: 50px;
+            width: auto;
+        }
+
+        .manual-main {
+            background-color: #1f2937;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            color: white;
+            font-family: Figtree,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        }
+
+        ul li a {
+            color: #9ca3af;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: white;
+        }
+
+        ol img {
+            display: block; 
+            margin: 0 auto;
+        }
+
+        #btnSubir {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            background-color: #9ca3af;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: opacity 0.3s ease;
+        }
+
+        #btnSubir:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header class="manual-header">
+        <h2>mInstrumental</h2>
+        <img src="img/LogoBlanco.png" alt="Logo de l'empresa">
+    </header>
+      
+    <main class="manual-main">
+        <h3 style="text-align: center;">Manual d'usuari - Ismael Iván</h3>
+        <p>En aquesta part del manual d’usuari, mostraré el funcionament de la pàgina mInstrumental general, per diferents rols: Usuari sense cap sessió, usuari amb sessió iniciada i l'usuari administrador.</p>
+
+        <h3>Índex del Manual</h3>
+        <ul>
+            <li><a href="#sense-sessio">Usuaris sense sessió</a></li>
+            <li><a href="#amb-sessio">Usuaris amb sessió</a></li>
+            <li><a href="#administrador">Usuaris administrador</a></li>
+        </ul>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+        <!-- Part pels usuaris sense sessió -->
+        <h4 id="sense-sessio">Usuari sense cap sessió</h4>
+        <ol style="text-align: justify;">
+            <li>Si ets un usuari sense sessió, quan accedeixes a la pàgina web podràs veure la pàgina d’inici, en aquesta part podràs accedir també als “recursos” com qualsevol usuari.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Si fas clic en iniciar sessió, demanarà un correu electrònic i la contrasenya, en cas de no tindre cap sessió creada, pots registrar-te.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Aquí pots veure tots els artistes que hi ha disponibles a la pàgina web.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Si accedeixes a un artista podràs veure totes les cançons que té actualment dins de la plataforma associada a l’artista.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>En generes funciona exactament de la mateixa forma.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>En aquest cas si fas clic en un gènere, s'obrirà un llistat de totes les cançons associat al gènere.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>En l’apartat de cançons, sortirà totes les cançons que hi ha en aquest moment.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Si fem clic podem veure la cançó.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+        </ol>
+
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Part pels usuaris amb sessió -->
+        <h4 id="amb-sessio">Usuari amb sessió iniciada</h4>
+        <p>Funciona de la mateixa forma que un usuari sense sessió, però té uns canvis.</p>
+        <ol style="text-align: justify;">
+            <li>Per començar, podem veure que apareix el nom d’usuari.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+        
+            <li>Si fem clic, s’obrirà un desplegable.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Hi haurà dues opcions, tancar sessió, i el meu perfil, si accedim al meu perfil podem veure que podem editar-ho.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>La principal diferència, és poder afegir cançons, a comparació d’un usuari sense cap sessió, apareix un botó.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Si fem clic dins, s’obrirà una nova pàgina, per poder escriure i publicar la cançó.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>En el cas dels desplegables, he utilitzat una llibreria de JavaScript Select2, aquesta llibreria ajuda a poder cercar dins d’una llista, s’ha fet això més que res, perquè en un entorn de prova pot passar, però si en qualsevol cas això estigues en producció hi hagués cent cançons, baixar el llistat per seleccionar l’artista o gènere pot ser fastigós.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Si fem clic en “Publicar cançó”, podem veure que s’afegeix la cançó en el mural.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Podem veure en el cas de gèneres, com augmenta el Nº de Cançons.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Mateix passa amb els artistes.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>En accedir a una cançó, podem veure que surt la cançó, però també un nou botó que es diu “Editar cançó”. Aquesta part només apareix en cas que l’usuari sigui el creador de la cançó, també podem veure que conté els espais que hi ha, això per l’etiqueta &lt;pre&gt;.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+            <p>¿En cas que hi hagi molts espais? Amb un “overflow-x: auto;” podem veure que la pàgina no perd l’estètica.</p>
+            <br>
+
+            <li>Si faig clic en editar cançó, s'obrirà una finestra de la mateixa forma que per publicar una cançó, però amb les dades ja posades.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Ara podem editar la cançó, i actualitzar els canvis.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            <li>Aquí podem veure els canvis aplicats.</li>
+            <br>
+            <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+        </ol>
+
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Part per l'usuari administrador -->
+        <h4 id="administrador">Usuari administrador</h4>
+        <p>Funciona de la mateixa forma que un usuari amb sessió, però té els seus canvis. (En aquest cas d'administració).</p>
+        <ol>
+          <li>Si ets un usuari sense sessió, quan accedeixes a la pàgina web podràs veure la pàgina d’inici, en aquesta part podràs accedir també als “recursos” com qualsevol usuari.</li>
+        
+          <img src="captura-inici.png" alt="Captura de pantalla de la pàgina d'inici" style="width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+        
+          <li>En segon lloc, selecciona l'opció de “Iniciar sessió” al menú superior dret i introdueix les teves dades.</li>
+        </ol>
+    </main>
+
+    <button id="btnSubir" onclick="irArriba()"><i class="fa-solid fa-circle-arrow-up"></i> Subir</button>
+
+
+</body>
+</html>
+
+<script>
+    // Mostrar el botón cuando se baja 300px o más
+    window.onscroll = function() {
+      const btn = document.getElementById("btnSubir");
+      btn.style.display = (window.scrollY > 300) ? "block" : "none";
+    };
+  
+    // Subir suavemente hasta el header
+    function irArriba() {
+      document.querySelector("header").scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+  
